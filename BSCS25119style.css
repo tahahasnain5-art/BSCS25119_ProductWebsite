@@ -1,0 +1,443 @@
+body, html 
+{
+    margin: 0; 
+    padding: 0; 
+    background-color: black; 
+    height: 100%;
+}
+
+/*home page css*/
+.topnav 
+{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    padding: 10px;
+    width: 80%;
+    max-width: 800px; 
+    margin: 10px auto; 
+    border-radius: 8px;
+}
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: black;
+  border-radius: 8px;
+}
+.topnav a.active 
+{
+  background-color: #b0a25c;
+  color: white;
+  border-radius: 8px;
+}
+
+.banner_scentiments 
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.products_scentiments 
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.chat-container 
+{
+  width: 400px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #ffffff; 
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.chat-log 
+{
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 15px;
+  background-color: #ffffff; 
+  color: #000000; 
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.chat-log p 
+{
+  margin: 8px 0;
+}
+
+
+#user-input 
+{
+  width: calc(100% - 70px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+
+button 
+{
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000; 
+  color: #ffffff; 
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover 
+{
+  background-color: #333333; 
+}
+
+.footer
+{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: monospace;
+    font-kerning: normal;
+}
+
+/*PRODUCTS*/
+.catalogue
+{
+     width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*product1*/
+.product-section 
+{
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.product-card 
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    background-color: #FFD699;
+    box-sizing: border-box;
+}
+.product-card img 
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.product-card .product-info 
+{
+    flex: 1;
+}
+.product-card h2 
+{
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.product-card .price 
+{
+    color: #000000;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.product-card .availability 
+{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.product-card .description 
+{
+    font-size: 14px;
+    margin: 10px 0 0;
+}
+
+/*product2*/ 
+.product-card2
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto; 
+    padding: 15px;
+    border-radius: 8px;
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    background-color: #F6D8A6;
+    box-sizing: border-box;
+}
+.product-card2 img 
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.product-card2 .product-info 
+{
+    flex: 1;
+}
+.product-card2 h2 
+{
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.product-card2 .price 
+{
+    color: #000000; 
+    font-size: 20px;
+    margin: 5px 0;
+}
+.product-card2 .availability 
+{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.product-card2 .description 
+{
+    font-size: 14px;
+    margin: 10px 0 0;
+}
+/*product3*/
+.product-section 
+{
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.product-card3
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    background-color: #E6B7A9;
+    box-sizing: border-box;
+}
+.product-card3 img 
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.product-card3 .product-info 
+{
+    flex: 1;
+}
+.product-card3 h2 
+{
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.product-card3 .price 
+{
+    color: #000000;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.product-card3 .availability 
+{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.product-card3 .description 
+{
+    font-size: 14px;
+    margin: 10px 0 0;
+}
+/*product3*/
+.product-section 
+{
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.product-card4
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    background-color: #D9A6A0;
+    box-sizing: border-box;
+}
+.product-card4 img 
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.product-card4 .product-info 
+{
+    flex: 1;
+}
+.product-card4 h2 
+{
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.product-card4 .price 
+{
+    color: #000000;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.product-card4 .availability 
+{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.product-card4 .description 
+{
+    font-size: 14px;
+    margin: 10px 0 0;
+}
+button 
+{
+  background-color: #000000; 
+  color: #ffffff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover 
+{
+  background-color: #333333; 
+}
+
+/*contacts*/
+.contactcard
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.instagram
+{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.facebook
+{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.linkedin
+{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.form 
+{
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff; 
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  color: #000000; 
+}
+
+
+.form label 
+{
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form input[type="text"],
+.form textarea 
+{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.form textarea 
+{
+  min-height: 100px;
+  resize: vertical;
+}
+
+
+.form button 
+{
+  background-color: #000000; 
+  color: #ffffff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover 
+{
+  background-color: #333333; 
+}
